@@ -4,7 +4,7 @@ import { useUserStore } from "../../../lib/userStore";
 import { doc, getDoc, onSnapshot, updateDoc } from "firebase/firestore";
 import { db } from "../../../lib/firebase";
 import { useChatStore } from "../../../lib/chatStore";
-import AddUser from "./addUser./addUser";
+import AddUser from "./addUser"
 
 const ChatList = () => {
   const [chats, setChats] = useState([]);
